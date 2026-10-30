@@ -78,6 +78,7 @@ The dashboard immediately reflects these resolved updates.
 ## System Verification & Proof Gallery
 
 * **VPC Architecture:**
+screenshots/VPC.jpeg
   ![VPC Topology](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/VPC.jpeg)
 
 * **EC2 & SSM Connection:**
