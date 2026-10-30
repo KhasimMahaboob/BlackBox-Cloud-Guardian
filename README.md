@@ -78,7 +78,7 @@ The dashboard immediately reflects these resolved updates.
 ## System Verification & Proof Gallery
 
 * **VPC Architecture:**
-  ![VPC Topology](screenshots/VPC.jpeg)
+  ![VPC Topology](/screenshots/VPC.jpeg)
 
 * **EC2 & SSM Connection:**
   ![EC2 Instance](screenshots/EC2.jpeg)
