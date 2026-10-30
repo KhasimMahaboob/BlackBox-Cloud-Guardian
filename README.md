@@ -75,26 +75,38 @@ FROM incidents
 ORDER BY incident_id DESC;
 The dashboard immediately reflects these resolved updates.
 
-System Verification & Proof Gallery
-screenshots/VPC.jpeg — VPC resource map, public/private subnets, and custom route tables.
+## System Verification & Proof Gallery
 
-screenshots/EC2.jpeg — EC2 instance state, security groups, and SSM Session Manager connection configuration.
+* **VPC Architecture:**
+  ![VPC Topology](screenshots/VPC.jpeg)
 
-screenshots/RDS.jpeg — Private RDS MySQL database configuration and security groups.
+* **EC2 & SSM Connection:**
+  ![EC2 Instance](screenshots/EC2.jpeg)
 
-screenshots/Active.jpeg — Live dashboard rendering active infrastructure incidents.
+* **Private RDS Database:**
+  ![RDS Config](screenshots/RDS.jpeg)
 
-screenshots/resolved.jpeg — Dashboard interface showing successfully resolved incidents.
+* **Active Incident Dashboard:**
+  ![Active Incidents](screenshots/Active.jpeg)
 
-screenshots/Commands.jpeg — Console terminal showing disk saturation tests and watchdog triggers.
+* **Resolved Incident Dashboard:**
+  ![Resolved Incidents](screenshots/resolved.jpeg)
 
-screenshots/SQL.jpeg — Database incident state modifications and telemetry validation queries.
+* **Disk Saturation & Watchdog Commands:**
+  ![Commands](screenshots/Commands.jpeg)
 
-screenshots/backup.png — Backup script execution log and successful S3 upload verification.
+* **Database SQL Verification:**
+  ![SQL Queries](screenshots/SQL.jpeg)
 
-screenshots/crone.jpeg — Cron job scheduler configuration table.
+* **S3 Backup Script Execution:**
+  ![Backup Pipeline](screenshots/backup.png)
 
-screenshots/terminal.jpeg — Journalctl execution logs and background task tracking.
+* **Cron Job Scheduler:**
+  ![Cron Jobs](screenshots/crone.jpeg)
+
+* **Systemd Journalctl Logs:**
+  ![Terminal Logs](screenshots/terminal.jpeg)
+
 
 Operations & Troubleshooting Runbook
 Dashboard Unreachable: Verify EC2 instance state, Nginx service status (systemctl status nginx), and port security group ingress rules.
