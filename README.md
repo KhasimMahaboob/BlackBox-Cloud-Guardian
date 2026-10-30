@@ -78,6 +78,38 @@ The dashboard immediately reflects these resolved updates.
 ## System Verification & Proof Gallery
 
 * **VPC Architecture:**
+  ![VPC Topology](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/VPC.jpeg)
+
+* **EC2 & SSM Connection:**
+  ![EC2 Instance](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/EC2.jpeg)
+
+* **Private RDS Database:**
+  ![RDS Config](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/RDS.jpeg)
+
+* **Active Incident Dashboard:**
+  ![Active Incidents](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/Active.jpeg)
+
+* **Resolved Incident Dashboard:**
+  ![Resolved Incidents](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/resolved.jpeg)
+
+* **Disk Saturation & Watchdog Commands:**
+  ![Commands](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/Commands.jpeg)
+
+* **Database SQL Verification:**
+  ![SQL Queries](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/SQL.jpeg)
+
+* **S3 Backup Script Execution:**
+  ![Backup Pipeline](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/backup.png)
+
+* **Cron Job Scheduler:**
+  ![Cron Jobs](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/crone.jpeg)
+
+* **Systemd Journalctl Logs:**
+  ![Terminal Logs](https://raw.githubusercontent.com/KhasimMahaboob/BlackBox-Cloud-Guardian/main/screenshots/terminal.jpeg)
+
+## System Verification & Proof Gallery
+
+* **VPC Architecture:**
   ![VPC Topology](/screenshots/VPC.jpeg)
 
 * **EC2 & SSM Connection:**
